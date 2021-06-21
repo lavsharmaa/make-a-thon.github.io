@@ -36,3 +36,13 @@
  li:last-child{
      border: none;
  }
+
+.register_btn{
+    padding: 10px 63px;
+}
+
+
+#brochure{
+    text-align: center;
+    background-color:#f3f4f3;
+}

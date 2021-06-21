@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #FFF5DA;
   font-size: 15px;
   font-weight: 400;
   -webkit-box-sizing: border-box;
@@ -53,6 +53,9 @@ ul, ol {
 
 ul li, ol li {
   list-style: none;
+}
+.dimg img{
+  width: 100%;
 }
 
 .hero-heading {
@@ -3170,7 +3173,7 @@ width:  1300px;
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.7);
+  background-color: #2d214e;
 }
 
 #hero-area .contents {
@@ -3278,7 +3281,7 @@ font-size: 70px;
 /*-----------------------------------------------New media  ----------------*/
 
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 991px) {
   .column10 {
     flex: 100%;
     max-width: 100%;
@@ -3289,7 +3292,7 @@ font-size: 70px;
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 991px) {
 
 
 
@@ -3467,6 +3470,12 @@ font-size: 50px;
 .title-text{
   font-size: 35px;
 }
+
+#rb-btns{
+  position: relative;
+  left: 5px;
+  top: 10px;
+}
 }
 
 
@@ -3483,6 +3492,8 @@ font-size: 50px;
     flex: 100%;
     max-width: 100%;
   }
+
+
 }
 
 #demo1 img{
@@ -3522,6 +3533,10 @@ font-size: 50px;
 
 }
 
+#rb-btns a{
+  position: relative;
+  left: 100px;
+}
 
 
 .section-padding {
@@ -3700,6 +3715,12 @@ font-size: 50px;
 
 @media (max-width: 320px) {
 
+  #rb-btns a{
+    position: relative;
+    left: 80px;
+    
+  }
+
 
 
 .slicknav_btn {
@@ -3718,7 +3739,10 @@ font-size: 50px;
 
 }
 
-
+#gallery{
+ position: relative;
+ top: 545px;
+}
 
 .section-padding {
   position: relative;

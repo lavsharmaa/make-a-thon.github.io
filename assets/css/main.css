@@ -101,7 +101,7 @@ ul li, ol li {
   line-height: 26px;
   padding-bottom: 36px;
   font-family: 'Educated Deers', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   color: #2D1B46;
 
 }
@@ -893,6 +893,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #231C38;
   padding: 0px 20px;
   text-align: left;
+  height: 80px;
 }
 
 .slicknav_brand {
@@ -908,9 +909,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_btn {
+  position: relative;
   margin: 14px 0;
   background-color: #FBAC02;
   padding: 5px 12px 14px;
+  top: -70px;
 }
 
 .slicknav_nav {
@@ -921,6 +924,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .slicknav_menu .slicknav_icon-bar {
   background: #231C38;
+
 }
 
 .slicknav_nav ul {
@@ -998,12 +1002,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
   .mobile-menu {
     width: 100%;
+    height: 80px;
   }
   .dropdown-menu {
     position: relative;
     box-shadow: none;
     border: none;
     background: transparent;
+
   }
   .dropdown:hover .dropdown-menu {
     position: relative;
@@ -3255,6 +3261,10 @@ top: -70px;
 }
 
 
+#about .about-text{
+font-size: 70px;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -3264,8 +3274,211 @@ top: -70px;
   }
 }
 
+
+/*-----------------------------------------------New media  ----------------*/
+
+
+@media screen and (min-width: 500px) {
+  .column10 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+
+.slicknav_btn {
+  position: relative;
+  margin: 14px 0;
+  background-color: #FBAC02;
+  padding: 5px 12px 14px;
+  top: 10px;
+}
+  .hero-area-bg {
+    position: relative;
+    top: 80px;
+  background-size: cover;
+  height: 550px;
+  
+
+}
+
+
+
+.section-padding {
+  position: relative;
+  top: 500px;
+}
+
+.foot{
+  position: relative;
+  top: 500px;
+}
+
+
+.seven .col-xs-12{
+  position: relative;
+  left: 5px;
+  width: 480px;
+
+}
+
+#ab {
+  position: relative;
+  left: 120px;
+}
+
+.about-content{
+  position: relative;
+  top: 40px;
+}
+#demo1 .carousel-inner {
+  position: relative;
+  left: -100px;
+  width: 600px;
+
+
+}
+#demo1  img {
+  height: 210px;
+  width: 370px;
+
+}
+
+#demo .carousel-inner {
+  position: relative;
+  left: -10px;
+  width: 400px;
+
+
+}
+#demo img{
+  height: 250px;
+  width: 400px;
+
+}
+
+#schedules .container{
+  position: relative;
+  top: -100px;
+}
+
+.schedule .item-text h5 {
+  font-size: 18px;
+  color: #2D1B46;
+  line-height: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+.schedule .nav-tabs {
+  position: relative;
+  display: block;
+  border-bottom: none;
+  width: 420px;
+}
+
+
+.dimg img{
+  width: 420px;
+}
+
+#schedules {
+  position: relative;
+  top: -5px;
+}
+
+.schedule .nav-tabs .nav-item {
+  margin-bottom: 16px;
+  text-align: center;
+  margin: 0 10px;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+}
+
+.schedule-tab-content {
+  position: relative;
+  top: 100px;
+}
+
+
+.hero-area-bg img{
+position: relative;
+top: -100px;
+left: -50px;
+width: 500px;
+
+}
+.hero-area-bg {
+  background-size: cover;
+  height: 420px;
+}
+
+#count {
+position: relative;
+top: -10px; 
+}
+
+#about {
+  background: #FFF5DA;
+  position: relative;
+  top: -130px;
+  font-size: 17px;
+  height: 600px; 
+
+}
+
+#about .about-text{
+font-size: 50px;
+}
+
+#about .col-lg-6{
+  background: #FFF5DA;
+
+}
+#about .container{
+  background: #FFF5DA;
+
+}
+
+.foot2{
+  position: relative;
+  top: 1400px;
+}
+
+
+#contact-map {
+  position: relative;
+  top: 10px;
+}
+.title-text{
+  font-size: 35px;
+}
+}
+
+
+
+/*-----------------------------------------------Main media ----------------*/
+
+
+
+
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 380px) {
   .column10 {
     flex: 100%;
     max-width: 100%;
@@ -3290,8 +3503,15 @@ top: -70px;
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 380px) {
 
+.slicknav_btn {
+  position: relative;
+  margin: 14px 0;
+  background-color: #FBAC02;
+  padding: 5px 12px 14px;
+  top: -70px;
+}
 
   .hero-area-bg {
     position: relative;
@@ -3324,7 +3544,7 @@ top: -70px;
 
 #ab {
   position: relative;
-  left: 150px;
+  left: 120px;
 }
 
 .about-content{
@@ -3340,21 +3560,21 @@ top: -70px;
 
 }
 #demo1  img {
-  height: 300px;
-  width: 495px;
+  height: 210px;
+  width: 370px;
 
 }
 
 #demo .carousel-inner {
   position: relative;
   left: -10px;
-  width: 500px;
+  width: 400px;
 
 
 }
 #demo img{
-  height: 350px;
-  width: 500px;
+  height: 250px;
+  width: 400px;
 
 }
 
@@ -3378,14 +3598,16 @@ top: -70px;
 
 
 .schedule .nav-tabs {
+  position: relative;
   display: block;
   border-bottom: none;
-  width: 400px;
+  width: 360px;
+  left: -10px;
 }
 
 
 .dimg img{
-  width: 440px;
+  width: 360px;
 }
 
 #schedules {
@@ -3411,8 +3633,8 @@ top: -70px;
 .hero-area-bg img{
 position: relative;
 top: -100px;
-left: -105px;
-width: 600px;
+left: -80px;
+width: 500px;
 
 }
 .hero-area-bg {
@@ -3422,16 +3644,20 @@ width: 600px;
 
 #count {
 position: relative;
-top: 50px; 
+top: -10px; 
 }
 
 #about {
   background: #FFF5DA;
   position: relative;
-  top: -76px;
+  top: -130px;
   font-size: 17px;
   height: 600px; 
 
+}
+
+#about .about-text{
+font-size: 50px;
 }
 
 #about .col-lg-6{
@@ -3445,11 +3671,217 @@ top: 50px;
 
 .foot2{
   position: relative;
-  top: 1300px;
+  top: 1500px;
 }
 
 #contact-map {
   position: relative;
   top: 10px;
 }
+.title-text{
+  font-size: 35px;
 }
+}
+
+
+/*-----------------------------------------------New media Two ----------------*/
+
+
+@media screen and (max-width: 320px) {
+  .column10 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+
+
+.slicknav_btn {
+  position: relative;
+  margin: 14px 0;
+  background-color: #FBAC02;
+  padding: 5px 12px 14px;
+  top: -70px;
+}
+  .hero-area-bg {
+    position: relative;
+    top: 80px;
+  background-size: cover;
+  height: 550px;
+  
+
+}
+
+
+
+.section-padding {
+  position: relative;
+  top: 500px;
+}
+
+.foot{
+  position: relative;
+  top: 500px;
+}
+
+
+.seven .col-xs-12{
+  position: relative;
+  left: 5px;
+  width: 480px;
+
+}
+
+#ab {
+  position: relative;
+  left: 120px;
+}
+
+.about-content{
+  position: relative;
+  top: 40px;
+}
+
+#demo1 .carousel-inner {
+  position: relative;
+  left: -100px;
+  width: 600px;
+
+
+}
+#demo1  img {
+  height: 200px;
+  width: 330px;
+
+}
+
+#demo .carousel-inner {
+  position: relative;
+  left: -10px;
+  width: 400px;
+
+
+}
+#demo img{
+  height: 220px;
+  width: 320px;
+
+}
+
+#schedules .container{
+  position: relative;
+  top: -100px;
+}
+
+.schedule .item-text h5 {
+  font-size: 18px;
+  color: #2D1B46;
+  line-height: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+.schedule .nav-tabs {
+  position: relative;
+  display: block;
+  border-bottom: none;
+  width: 320px;
+}
+
+
+.dimg img{
+  width: 320px;
+}
+
+#schedules {
+  position: relative;
+  top: -5px;
+}
+
+.schedule .nav-tabs .nav-item {
+  margin-bottom: 16px;
+  text-align: center;
+  margin: 0 10px;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+}
+
+.schedule-tab-content {
+  position: relative;
+  top: 100px;
+}
+
+
+.hero-area-bg img{
+position: relative;
+top: -100px;
+left: -100px;
+width: 500px;
+
+}
+.hero-area-bg {
+  background-size: cover;
+  height: 420px;
+}
+
+#count {
+position: relative;
+top: -10px; 
+}
+
+#about {
+  background: #FFF5DA;
+  position: relative;
+  top: -130px;
+  font-size: 17px;
+  height: 600px; 
+
+}
+
+#about .about-text{
+font-size: 50px;
+}
+
+#about .col-lg-6{
+  background: #FFF5DA;
+
+}
+#about .container{
+  background: #FFF5DA;
+
+}
+
+.foot2{
+  position: relative;
+  top: 1700px;
+}
+
+
+#contact-map {
+  position: relative;
+  top: 10px;
+}
+
+.title-text{
+  font-size: 35px;
+}
+}
+
+
+
+
+
+

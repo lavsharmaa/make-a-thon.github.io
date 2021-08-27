@@ -13,3 +13,7 @@
 - Added "register" and "brochure" button
 - Added images in gallery
 - Mobile optimization
+
+## v0.1.3
+- Results section added
+- Registration removed

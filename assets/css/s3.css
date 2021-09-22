@@ -1,0 +1,74 @@
+.articles-top{
+    padding-top: 25vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.articles-middle{
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.articles-bottom{
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
+}
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-gap: .5rem;
+}
+
+.yt-videos{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
+    width: 40vw;
+}
+
+
+.video-containers {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+}
+
+.video-containers iframe{ /*change according to your need*/
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: 50vh;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
